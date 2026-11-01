@@ -2,7 +2,7 @@ package dev.soundworks;
 
 import dev.soundworks.block.*;
 import dev.soundworks.menu.*;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
 import net.fabricmc.fabric.api.menu.v1.ExtendedMenuType;
 import net.fabricmc.fabric.api.object.builder.v1.block.entity.FabricBlockEntityTypeBuilder;
 import net.minecraft.core.BlockPos;
@@ -87,12 +87,12 @@ public final class ModRegistry {
 			new ExtendedMenuType<>(JukeboxMenu::new, BlockPos.STREAM_CODEC.cast()));
 
 		// Creative inventory: the three blocks appear in the "Building Blocks" tab, the blank record in "Tools & Utilities".
-		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.BUILDING_BLOCKS).register(entries -> {
+		CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.BUILDING_BLOCKS).register(entries -> {
 			entries.accept(PRESS_ITEM);
 			entries.accept(TURNTABLE_ITEM);
 			entries.accept(JUKEBOX_ITEM);
 		});
-		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.TOOLS_AND_UTILITIES).register(entries -> entries.accept(BLANK_DISC));
+		CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES).register(entries -> entries.accept(BLANK_DISC));
 	}
 
 	/** RGB color of a dye, or -1 if the stack is not a dye. */
