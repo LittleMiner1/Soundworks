@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " P ",
+    "IKI",
+    "SSS"
+  ],
+  "key": {
+    "P": "minecraft:piston",
+    "I": "minecraft:iron_ingot",
+    "K": "minecraft:black_dye",
+    "S": "minecraft:stone"
+  },
+  "result": {
+    "id": "soundworks:press",
+    "count": 1
+  }
+}

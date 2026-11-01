@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "soundworks",
+	"version": "${version}",
+	"name": "Soundworks",
+	"description": "Press your own MP3 files onto records and play them on a turntable or jukebox. Everyone in the world hears the music, in stereo, without owning the files.",
+	"authors": ["Kevin Meyer"],
+	"license": "MIT",
+	"icon": "assets/soundworks/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["dev.soundworks.SoundworksMod"],
+		"client": ["dev.soundworks.client.SoundworksClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

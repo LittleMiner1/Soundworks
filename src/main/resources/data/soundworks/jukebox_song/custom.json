@@ -1,0 +1,8 @@
+{
+  "comparator_output": 1,
+  "description": {
+    "translate": "item.soundworks.disc.desc"
+  },
+  "length_in_seconds": 3600,
+  "sound_event": "soundworks:disc_custom"
+}

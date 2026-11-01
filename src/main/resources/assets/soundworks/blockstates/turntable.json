@@ -1,0 +1,48 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "facing": "north"
+      },
+      "apply": {
+        "model": "soundworks:block/turntable",
+        "y": 0
+      }
+    },
+    {
+      "when": {
+        "facing": "east"
+      },
+      "apply": {
+        "model": "soundworks:block/turntable",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "facing": "south"
+      },
+      "apply": {
+        "model": "soundworks:block/turntable",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "facing": "west"
+      },
+      "apply": {
+        "model": "soundworks:block/turntable",
+        "y": 270
+      }
+    },
+    {
+      "when": {
+        "has_disc": "true"
+      },
+      "apply": {
+        "model": "soundworks:block/turntable_disc"
+      }
+    }
+  ]
+}

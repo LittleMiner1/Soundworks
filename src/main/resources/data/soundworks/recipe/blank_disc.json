@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " C ",
+    "CNC",
+    " C "
+  ],
+  "key": {
+    "C": "#minecraft:coals",
+    "N": "minecraft:iron_nugget"
+  },
+  "result": {
+    "id": "soundworks:blank_disc",
+    "count": 2
+  }
+}

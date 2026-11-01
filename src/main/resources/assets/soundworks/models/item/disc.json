@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "soundworks:item/disc_base",
+    "layer1": "soundworks:item/disc_ring"
+  }
+}

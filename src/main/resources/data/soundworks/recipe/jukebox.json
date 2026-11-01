@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NTN",
+    " C "
+  ],
+  "key": {
+    "N": "minecraft:note_block",
+    "T": "soundworks:turntable",
+    "C": "minecraft:chest"
+  },
+  "result": {
+    "id": "soundworks:jukebox",
+    "count": 1
+  }
+}

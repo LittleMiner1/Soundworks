@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "soundworks:block/jukebox",
+      "y": 0
+    },
+    "facing=east": {
+      "model": "soundworks:block/jukebox",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "soundworks:block/jukebox",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "soundworks:block/jukebox",
+      "y": 270
+    }
+  }
+}

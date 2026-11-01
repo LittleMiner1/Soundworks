@@ -1,0 +1,10 @@
+{
+  "disc_custom": {
+    "sounds": [
+      {
+        "name": "soundworks:silence",
+        "stream": true
+      }
+    ]
+  }
+}

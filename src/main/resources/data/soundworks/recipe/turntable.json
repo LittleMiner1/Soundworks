@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " D ",
+    " W ",
+    "III"
+  ],
+  "key": {
+    "D": "minecraft:diamond",
+    "W": "#minecraft:wool",
+    "I": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "soundworks:turntable",
+    "count": 1
+  }
+}
